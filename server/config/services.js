@@ -42,24 +42,24 @@
 
 module.exports = {
 
-  service1: {
-    api: '/carousel/:productid/*',
-    url: 'http://52.14.74.216:9999',
-    bundle: 'bundle.js',
-  },
+  // service1: {
+  //   api: '/carousel/:productid/*',
+  //   url: 'http://52.14.74.216:9999',
+  //   bundle: 'bundle.js',
+  // },
   service2: {
     api: '/products/:id/*',
     url: 'http://3.101.76.104:5000/',
     bundle: 'bundle.js'
   },
-  service3: {
-    api: ['/products1', '/photos', '/photosBlack', '/photosRed' ],
-    url: 'http://13.58.3.114:1238/',
-    bundle: 'bundle.js'
-  },
-  service4: {
-    api: '/ratings/*',
-    url: 'http://ec2-18-222-190-75.us-east-2.compute.amazonaws.com:4444/',
-    bundle: 'bundle.js'
-  }
+  // service3: {
+  //   api: ['/products1', '/photos', '/photosBlack', '/photosRed' ],
+  //   url: 'http://13.58.3.114:1238/',
+  //   bundle: 'bundle.js'
+  // },
+  // service4: {
+  //   api: '/ratings/*',
+  //   url: 'http://ec2-18-222-190-75.us-east-2.compute.amazonaws.com:4444/',
+  //   bundle: 'bundle.js'
+  // }
 };

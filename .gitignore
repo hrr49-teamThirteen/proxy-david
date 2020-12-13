@@ -6,3 +6,5 @@ node_modules
 stressTest.yaml
 newrelic.js
 *.log
+
+login.sh
