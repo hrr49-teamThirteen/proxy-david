@@ -49,7 +49,7 @@ module.exports = {
   },
   service2: {
     api: '/products/:id/*',
-    url: 'http://localhost:5000/',
+    url: 'http://3.101.76.104:5000/',
     bundle: 'bundle.js'
   },
   service3: {
