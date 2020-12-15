@@ -49,7 +49,7 @@ module.exports = {
   // },
   service2: {
     api: '/products/:id/*',
-    url: 'http://13.57.56.149:5000/',
+    url: 'http://13.56.184.243:5000/',
     bundle: 'bundle.js'
   },
   // service3: {
