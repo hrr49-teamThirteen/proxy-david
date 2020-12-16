@@ -51,7 +51,7 @@ module.exports = {
     api: '/products/:id/*',
     url: 'http://52.53.249.7/',
     bundle: 'bundle.js'
-  },
+  }
   // service3: {
   //   api: ['/products1', '/photos', '/photosBlack', '/photosRed' ],
   //   url: 'http://13.58.3.114:1238/',
