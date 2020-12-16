@@ -55,7 +55,7 @@ module.exports = {
   service3: {
     api: '/initial/*',
     url: 'http://ec2-52-91-251-182.compute-1.amazonaws.com/',
-    bundle: 'bundle.js'
+    bundle: 'bundle.js',
   },
   service4: {
     api: '/ratings/*',
