@@ -50,7 +50,7 @@ module.exports = {
   service2: {
     api: '/products/:id/*',
     url: 'http://13.57.184.36/',
-    bundle: 'bundle.js'
+    bundle: 'bundle.js',
   },
   // service3: {
   //   api: '/initial/*',
