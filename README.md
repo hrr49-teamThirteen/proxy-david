@@ -3,6 +3,8 @@
 ## Overview
 This is an template proxy server that you can use to quickly display all four individual services on one page, and ensure that your client applications will be able to communicate with their corresponding API. It consists of some middleware that serve up static asset requests, proxy requests for your individual client application bundles, and proxy requests from running client applications to their respective service.
 
+In order to perform isolated stress tests on the About This Item module, the rest of the individual services have been commented out for the time being. This has been done to better gauge server performance and measure improvements on key metrics such as response time (latency), throughput, and error rate.
+
 ## Instructions
 - Run `nvm use` to switch the version of node required for this project. If this version isn't currently installed, run `nvm install` to install this version
 - Run `npm install` to install all the project dependencies
